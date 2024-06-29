@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 main {
@@ -12,9 +14,49 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
 }
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #0056b3;
+}
+
+a {
+    color: #ff6600;
+}
+
+article h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
